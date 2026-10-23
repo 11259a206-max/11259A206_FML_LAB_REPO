@@ -19,7 +19,7 @@
 - **Loss fell steadily in both sets.** Training loss dropped from 0.7814 to 0.6401. Validation loss dropped from 0.7171 to 0.5067. The model is learning, but it has not converged.
 - **Training accuracy stayed low for most of the run.** It sat around 0.33 to 0.42 until epoch 43, then rose to 0.5833 by epoch 46.
 - **Validation accuracy is unreliable.** The validation set has only about 3 samples, so each sample shifts accuracy by roughly 0.33. The value moved between 0.50 and 0.75 and never changed by smaller steps.
-- **Final prediction step** ran on the 4-row test set. The log shows only the progress bar. The `Accuracy:` line is not in this log.
+- **Final prediction step** ran on the 4-row test set. The log shows only the progress bar.
 
 ## Epoch-by-Epoch Metrics
 
